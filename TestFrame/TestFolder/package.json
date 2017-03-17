@@ -1,0 +1,23 @@
+{
+  "name": "testnode",
+  "version": "1.0.0",
+  "description": "Testing Node With Karma",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/.bin/mocha -V"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "grunt": "^1.0.1",
+    "mocha": "^3.2.0"
+  },
+  "dependencies": {
+    "assert": "latest",
+    "request": "2.81.0",
+    "should": "latest",
+    "grunt-cucumber": "latest",
+    "grunt-cli":"latest"
+  }
+}
